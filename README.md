@@ -1,6 +1,17 @@
 # fullstack_blogapp
-spring boot, jpa, angular 2
-This is a blog application.  
+This is a full stack blog site - application. 
+
+# Basic Features
+
+•	User has the ability to browse blog items
+•	Blog item has a title, date and text
+•	User has the ability to search blog items
+•	User can add, delete and modify blog items
+
+# Advanced Features
+
+•	Commenting of blog items
+•	Long lists are using lazy loading or some other decent way. So if fetching all the blog items, the browser will not load them all at once
 
 # Description
 1. This app uses angular2+ front-end technology.
@@ -8,11 +19,7 @@ This is a blog application.
    HttpClient.
 3. Angular component(module) then subscribes from the angular services in order to retrieve and display the data to the browser in table 
    form.
-2. In the browser, the user enters values on the input field for latitude and longitude.
-3. When add button is clicked, the values are showed on the table and map out to the google map with a marker.
-4. Each row corresponding to the latitude and longitude values has a delete button also.
-5. When delete button is clicked for a certain row, the entire row is remove from the table and the marker is also removed from the map.
-
+4. The backend used were spring boot, jpa, hibernate, crudrepository, rest controller.
 
 # Direction
 
@@ -33,13 +40,11 @@ This is a blog application.
 6. Delete the src file of your newly created project.
 7. Download the src file of this app and save it to your project to replace the deleted src file.
 
-8. 
-
-10. In your command prompt enter this command to start your app:
+8 In your command prompt enter this command to start your app:
 
    ng serve –open
    
-11. Open your api:
+12. Open your api:
   
     java -jar blogapp-0.1.0.jar
     
