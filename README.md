@@ -55,9 +55,12 @@ This is a full stack blog site - application.
 LICENSE This program is a free software. Redistribution and/or modification is permitted under GNU General Public License v3.0 or any subsequent version.
 
 This program is mainly for educational purposes and does not warrant its fitness for commercial game production capabilities.
-
+# App screenshot home page
+![Alt text](https://github.com/annviitala/fullstack_blogapp/blob/master/homepage.png?raw=true "Optional Title")
 # App screenshot admin page
 ![Alt text](https://github.com/annviitala/fullstack_blogapp/blob/master/adminpage.png?raw=true "Optional Title")
+# App screenshot comment page
+![Alt text](https://github.com/annviitala/fullstack_blogapp/blob/master/commentpage.png?raw=true "Optional Title")
 
 
 
