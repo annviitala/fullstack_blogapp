@@ -1,4 +1,4 @@
-# fullstack_blogapp
+# Fullstack_blogapp
 This is a full stack blog site - application. 
 
 # Basic Features
@@ -19,9 +19,33 @@ This is a full stack blog site - application.
    HttpClient.
 3. Angular component(module) then subscribes from the angular services in order to retrieve and display the data to the browser in table 
    form.
-4. The backend used were spring boot, jpa, hibernate, crudrepository, rest controller.
+4. The backend used were spring boot, jpa, hibernate, crudrepository, rest controller and mysql.
 
-# Direction
+# Direction BackEnd
+1. Download the backend file to your directory.
+2. Go to src->main->resources folder and supply the required database url, username, password data of the apllication.properties file
+
+spring.datasource.url=jdbc:"database url"
+spring.datasource.username="yourusername"
+spring.datasource.password="yourpassword"
+
+3. Open command prompt and change directory to where you save the downloaded backend file.
+4. Enter command
+
+mvn compile
+
+5. Then
+
+mvn spring-boot:run
+
+6. Then open another command prompt and enter command
+
+mvn package
+
+Note: Blog post api can be accessed at "http://localhost:8080/blogposts/"
+
+
+# Direction FrontEnd
 
 1. Install angular 2+ if you don't have yet in you computer.
 2. Before installing angular make sure you have node and npm installed already also in your computer.  
@@ -43,12 +67,8 @@ This is a full stack blog site - application.
 8 In your command prompt enter this command to start your app:
 
    ng serve –open
-   
-12. Open your api:
-  
-    java -jar blogapp-0.1.0.jar
+       
     
-    Note: Blog post api can be accessed at "http://localhost:8080/blogposts/"
 12. Project can be accessed at "http://localhost:4200/finalblogapp".
 
 # License
