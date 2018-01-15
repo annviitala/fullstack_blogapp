@@ -3,15 +3,15 @@ This is a full stack blog site - application.
 
 # Basic Features
 
-•	User has the ability to browse blog items
-•	Blog item has a title, date and text
-•	User has the ability to search blog items
-•	User can add, delete and modify blog items
+1. User has the ability to browse blog items
+2. Blog item has a title, date and text
+3. User has the ability to search blog items
+4. User can add, delete and modify blog items
 
 # Advanced Features
 
-•	Commenting of blog items
-•	Long lists are using lazy loading or some other decent way. So if fetching all the blog items, the browser will not load them all at once
+1. Commenting of blog items
+2.	Long lists are using lazy loading or some other decent way. So if fetching all the blog items, the browser will not load them all at once
 
 # Description
 1. This app uses angular2+ front-end technology.
